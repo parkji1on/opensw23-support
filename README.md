@@ -2,7 +2,7 @@
 
 #Team Introduction
   
-  – 박지원, 201812317, Everything
+  > 박지원, 201812317, Everything
   
 #Topic Introduction
   
