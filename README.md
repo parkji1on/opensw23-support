@@ -8,11 +8,15 @@
   > PyTorch를 기반으로 MSG-Net 및 Neural Style을 구현해 원하는 그림의 스타일을 MSG-Net을 통해 학습하여 원하는 그림을 해당 스타일의 그림처럼 변경해 줄 수 있다.
   
   input
+  
     1. --content-image : 다른 스타일로 그림을 변경하고 싶은 이미지 파일 1개
+    
     2. --style-image : 원하는 스타일의 이미지 파일 1개
+    
     3. --model : 원하는 스타일로 변경을 도와주는 학습된 모델
 
   output
+  
     --style-image의 스타일 같이 변경된 --content-image의 이미지 파일 (output.jpg)
   
   
