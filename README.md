@@ -18,7 +18,7 @@
 
 ### 프로젝트 가져오기
 ```
-git clone https://github.com/parkji1on/PyTorch-Multi-Style-Transfer.git
+git clone https://github.com/parkji1on/opensw23-support.git
 ```
 원본
 ```
@@ -43,8 +43,10 @@ cd PyTorch-Style-Transfer/experiments
 bash models/download_model.sh
 ```
 ### 미리 학습된 모델을 통해 이미지 변경하기
+experiments 파일안에서 실행하기!
 ```
 python main.py eval --content-image images/content/venice-boat.jpg --style-image images/21styles/candy.jpg --model models/21styles.model --content-size 1024 --cuda=0
 ```
+결과 파일은 experiments 파일안에 output.jpg로 저장되어 있음
 
 ## Presentation
